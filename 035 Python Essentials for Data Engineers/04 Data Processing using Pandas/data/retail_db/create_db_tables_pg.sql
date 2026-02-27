@@ -30,7 +30,7 @@ CREATE TABLE products (
   product_id INT NOT NULL,
   product_category_id INT NOT NULL,
   product_name VARCHAR(45) NOT NULL,
-  product_description VARCHAR(255) NOT NULL,
+  product_description VARCHAR(255),
   product_price FLOAT NOT NULL,
   product_image VARCHAR(255) NOT NULL,
   PRIMARY KEY (product_id)
